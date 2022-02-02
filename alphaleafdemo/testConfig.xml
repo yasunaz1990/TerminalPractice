@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Config name="Alphaleaf Test Execution Config">
+
+    <!--  TEST BUCKET INFO
+        Test Type     Class Numbers
+        =================================
+        SMOKE      -> TestBucket 1 - 4
+        REGRESSION -> TestBucket 5 - 7
+        SMOKE TEST -> TestBucket 8 - 11
+    -->
+
+    <!-- This collections of test will be executed--> 
+    <test test-title="SMOKE">
+        <classes>
+            <class name="tests.TestBucket1"/>
+            <class name="tests.TestBucket2"/>
+            <class name="tests.TestBucket3"/>
+        </classes>
+    </test>
+
+    <time priority="1">
+        <year></year>    <!-- empty or 1970-2099 -->
+        <month></month>  <!-- 0-11 or JAN-DEC -->
+        <day></day>      <!-- 1-31 -->
+        <hour></hour>    <!-- 0-23 -->
+        <min></min>      <!-- 0-59 -->
+    </time>
+</Config>

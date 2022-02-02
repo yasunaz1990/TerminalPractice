@@ -1,0 +1,172 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ----------------------< alphaleaf:alphaleafdemo >-----------------------
+[INFO] Building alphaleafdemo 1.0.0
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ alphaleafdemo ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /Users/yasunaz/Desktop/demoautomation/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ alphaleafdemo ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ alphaleafdemo ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /Users/yasunaz/Desktop/demoautomation/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ alphaleafdemo ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ alphaleafdemo ---
+[INFO] Surefire report directory: /Users/yasunaz/Desktop/demoautomation/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running TestSuite
+Configuring TestNG with: org.apache.maven.surefire.testng.conf.TestNG652Configurator@768debd
+TEST TYPE:  REGRESSION   =============
+TEST ENV :  Test    ==================
+USER     :  nmuhtar@alphaleaf.tech ===
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Starting ChromeDriver 97.0.4692.71 (adefa7837d02a07a604c1e6eff0b3a09422ab88d-refs/branch-heads/4692@{#1247}) on port 33108
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Feb 02, 2022 6:22:34 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[32;44;1m[PAGE]	===	HOME[0m
+[36m[HLGT]	-->	By.xpath: //div[@id='div_slideshow']//button[0m
+[36m[CLIK]	-->	By.xpath: //div[@id='div_slideshow']//button[0m
+[36m[HLGT]	-->	By.xpath: //div[@id='div_slideshow']//button[0m
+[36m[CHEK]	-->	By.xpath: (//h1)[1][0m
+[36m[HLGT]	-->	By.xpath: (//h1)[1][0m
+[36m[HLGT]	-->	By.xpath: (//h1)[1][0m
+[36m[HLGT]	-->	By.xpath: //div[contains(text(), 'The ACR Data')][0m
+[36m[HLGT]	-->	By.xpath: //p[contains(text(), 'Beginning in')][0m
+[36m[SCRL]	-->	By.xpath: //p[contains(text(), 'In a cutting')][0m
+[36m[HLGT]	-->	By.xpath: //p[contains(text(), 'In a cutting')][0m
+[36m[HLGT]	-->	By.xpath: //div[contains(text(), 'Learn how AI')][0m
+[36m[VERF]	-->	By.xpath: //div[@class='site-menubar']//span[0m
+[36m[CLIK]	-->	By.xpath: //li/a/span[text()='Create'][0m
+[36m[HLGT]	-->	By.xpath: //li/a/span[text()='Create'][0m
+[36m[CHEK]	-->	By.xpath: //h5[text()='Define Problem'][0m
+[36m[HLGT]	-->	By.xpath: //h5[text()='Define Problem'][0m
+[32;44;1m[PAGE]	===	CREATE[0m
+[36m[CLIK]	-->	By.cssSelector: select#useCases[0m
+[36m[HLGT]	-->	By.cssSelector: select#useCases[0m
+[36m[CLIK]	-->	By.cssSelector: option[value='16'][0m
+[36m[HLGT]	-->	By.cssSelector: option[value='16'][0m
+[36m[CLIK]	-->	By.cssSelector: #datapercentage[0m
+[36m[HLGT]	-->	By.cssSelector: #datapercentage[0m
+[36m[CLIK]	-->	By.cssSelector: select#datapercentage > option[value='1000'][0m
+[36m[HLGT]	-->	By.cssSelector: select#datapercentage > option[value='1000'][0m
+[36m[CLIK]	-->	By.cssSelector: #augmentation[0m
+[36m[HLGT]	-->	By.cssSelector: #augmentation[0m
+[36m[CLIK]	-->	By.cssSelector: #augmentation [value='true'][0m
+[36m[HLGT]	-->	By.cssSelector: #augmentation [value='true'][0m
+[36m[CLIK]	-->	By.cssSelector: #btnStartProcessing[0m
+[36m[HLGT]	-->	By.cssSelector: #btnStartProcessing[0m
+[36m[CHEK]	-->	By.xpath: //h5[text()='Configure Model'][0m
+[36m[HLGT]	-->	By.xpath: //h5[text()='Configure Model'][0m
+[36m[CLIK]	-->	By.cssSelector: select#architecture[0m
+[36m[HLGT]	-->	By.cssSelector: select#architecture[0m
+[36m[CLIK]	-->	By.cssSelector: [value='resnet'][0m
+[36m[HLGT]	-->	By.cssSelector: [value='resnet'][0m
+[36m[CLIK]	-->	By.cssSelector: #equalsampling[0m
+[36m[HLGT]	-->	By.cssSelector: #equalsampling[0m
+[36m[CLIK]	-->	By.cssSelector: #equalsampling [value='true'][0m
+[36m[HLGT]	-->	By.cssSelector: #equalsampling [value='true'][0m
+[36m[CLIK]	-->	By.cssSelector: #lossfunction[0m
+[36m[HLGT]	-->	By.cssSelector: #lossfunction[0m
+[36m[CLIK]	-->	By.cssSelector: [value='categorical-crossentropy'][0m
+[36m[HLGT]	-->	By.cssSelector: [value='categorical-crossentropy'][0m
+[36m[CLIK]	-->	By.cssSelector: #pretraining[0m
+[36m[HLGT]	-->	By.cssSelector: #pretraining[0m
+[36m[CLIK]	-->	By.cssSelector: #pretraining [value='true'][0m
+[36m[HLGT]	-->	By.cssSelector: #pretraining [value='true'][0m
+[36m[CLIK]	-->	By.cssSelector: select#earlystopping[0m
+[36m[HLGT]	-->	By.cssSelector: select#earlystopping[0m
+[36m[CLIK]	-->	By.cssSelector: #earlystopping [value='true'][0m
+[36m[HLGT]	-->	By.cssSelector: #earlystopping [value='true'][0m
+[36m[CLIK]	-->	By.cssSelector: button#btnTrainAndTest[0m
+[36m[HLGT]	-->	By.cssSelector: button#btnTrainAndTest[0m
+[36m[HLGT]	-->	By.xpath: //div[text()='Accuracy Overview'][0m
+[36m[HLGT]	-->	By.xpath: //div[text()='Loss Overview'][0m
+[36m[HLGT]	-->	By.xpath: //div[text()='Performance Testing'][0m
+[36m[HLGT]	-->	By.xpath: //div[@id='app']//div[contains(text(), 'Data Sampling')][0m
+[36m[HLGT]	-->	By.xpath: //button[text()='Run Prediction'][0m
+[36m[CLIK]	-->	By.xpath: //button[text()='Run Prediction'][0m
+[36m[HLGT]	-->	By.xpath: //button[text()='Run Prediction'][0m
+[36m[MVER]	-->	By.xpath: //div[@id='divtrain_sivc11']//span[0m
+[36m[CHEK]	-->	By.xpath: //div[text()='Predictions'][0m
+[36m[HLGT]	-->	By.xpath: //div[text()='Predictions'][0m
+[32;44;1m[PAGE]	===	HOME[0m
+[36m[HLGT]	-->	By.xpath: //div[@id='div_slideshow']//button[0m
+[36m[CLIK]	-->	By.xpath: //div[@id='div_slideshow']//button[0m
+[36m[HLGT]	-->	By.xpath: //div[@id='div_slideshow']//button[0m
+[36m[CHEK]	-->	By.xpath: (//h1)[1][0m
+[36m[HLGT]	-->	By.xpath: (//h1)[1][0m
+[36m[HLGT]	-->	By.xpath: (//h1)[1][0m
+[36m[CLIK]	-->	By.xpath: //li/a/span[text()='Evaluate'][0m
+[36m[HLGT]	-->	By.xpath: //li/a/span[text()='Evaluate'][0m
+[32;44;1m[PAGE]	===	EVALUATE[0m
+[36m[CLIK]	-->	By.cssSelector: select#useCases[0m
+[36m[HLGT]	-->	By.cssSelector: select#useCases[0m
+[36m[CLIK]	-->	By.xpath: //select[@id='useCases']//option[@value='16'][0m
+[36m[HLGT]	-->	By.xpath: //select[@id='useCases']//option[@value='16'][0m
+[36m[CLIK]	-->	By.cssSelector: #useCaseSelect[0m
+[36m[HLGT]	-->	By.cssSelector: #useCaseSelect[0m
+[36m[CLIK]	-->	By.xpath: //option[ contains(@value, 'Site A') ][0m
+[36m[HLGT]	-->	By.xpath: //option[ contains(@value, 'Site A') ][0m
+[36m[CLIK]	-->	By.xpath: (//tr/td//span)[1][0m
+[36m[HLGT]	-->	By.xpath: (//tr/td//span)[1][0m
+[36m[CLIK]	-->	By.xpath: (//tr/td//span)[2][0m
+[36m[HLGT]	-->	By.xpath: (//tr/td//span)[2][0m
+[36m[CLIK]	-->	By.xpath: (//tr/td//span)[3][0m
+[36m[HLGT]	-->	By.xpath: (//tr/td//span)[3][0m
+[36m[CLIK]	-->	By.xpath: (//tr/td//span)[4][0m
+[36m[HLGT]	-->	By.xpath: (//tr/td//span)[4][0m
+[36m[CLIK]	-->	By.xpath: //button[text()='Evaluate Models'][0m
+[36m[HLGT]	-->	By.xpath: //button[text()='Evaluate Models'][0m
+[36m[CHEK]	-->	By.cssSelector: div#matrix3[0m
+[36m[HLGT]	-->	By.cssSelector: div#matrix3[0m
+[32;44;1m[PAGE]	===	HOME[0m
+[36m[HLGT]	-->	By.xpath: //div[@id='div_slideshow']//button[0m
+[36m[CLIK]	-->	By.xpath: //div[@id='div_slideshow']//button[0m
+[36m[HLGT]	-->	By.xpath: //div[@id='div_slideshow']//button[0m
+[36m[CHEK]	-->	By.xpath: (//h1)[1][0m
+[36m[HLGT]	-->	By.xpath: (//h1)[1][0m
+[36m[HLGT]	-->	By.xpath: (//h1)[1][0m
+[36m[CLIK]	-->	By.xpath: //li/a/span[text()='Run'][0m
+[36m[HLGT]	-->	By.xpath: //li/a/span[text()='Run'][0m
+[32;44;1m[PAGE]	===	INFERENCE[0m
+[36m[CLIK]	-->	By.cssSelector: select#useCases[0m
+[36m[HLGT]	-->	By.cssSelector: select#useCases[0m
+[36m[CLIK]	-->	By.xpath: //select[@id='useCases']//option[@value='25'][0m
+[36m[HLGT]	-->	By.xpath: //select[@id='useCases']//option[@value='25'][0m
+[36m[CHEK]	-->	By.xpath: //h5[text()='Image Prediction'][0m
+[36m[HLGT]	-->	By.xpath: //h5[text()='Image Prediction'][0m
+[36m[CLIK]	-->	By.xpath: (//div[@id='imageList']//img)[2][0m
+[36m[HLGT]	-->	By.xpath: (//div[@id='imageList']//img)[2][0m
+[36m[CLIK]	-->	By.cssSelector: #btnPredictionModelDesktop[0m
+[36m[HLGT]	-->	By.cssSelector: #btnPredictionModelDesktop[0m
+[36m[CHEK]	-->	By.cssSelector: #btnImagePredictionDisplay[0m
+[36m[HLGT]	-->	By.cssSelector: #btnImagePredictionDisplay[0m
+Initiating Report Process +Initiating Report Process **Initiating Report Process +Initiating Report Process ***Initiating Report Process +Initiating Report Process ****Report Generation ***[██████████████████████████████████████████████████+]100%  [HTML] Based Report are generated...
+[██████████████████████████████████████████████████+]100%  Report has been published to [reports/]
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 80.852 sec
+
+Results :
+
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 0
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  01:22 min
+[INFO] Finished at: 2022-02-02T18:23:50-05:00
+[INFO] ------------------------------------------------------------------------

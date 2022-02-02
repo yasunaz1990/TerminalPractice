@@ -1,0 +1,12 @@
+# folder to be ignored by git
+.idea/
+target/
+reports/
+
+#files to be ignored by git
+*.class
+*.iml
+*.html
+.project
+.classpath
+

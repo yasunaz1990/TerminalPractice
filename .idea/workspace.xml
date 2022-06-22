@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e97c3bfc-a9e0-46f4-bf8f-6a9ee29a7cd8" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/alphaleafdemo/backup/info.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alphaleafdemo/code/info.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alphaleafdemo/src/test/java/tests/Regression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alphaleafdemo/src/test/java/tests/UserAcceptanceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/copyMe.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moveMe.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alphaleafdemo/src/test/java/tests/SmokeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/alphaleafdemo/src/test/java/tests/SmokeTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="2Ax1E1L96te4Gxv50NNu0n7l0h0" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/alphaleafdemo/src/test/java/tests" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\nijat\simulation4\zach\TerminalPractice\alphaleafdemo\src\test\java\tests" />
+      <recent name="C:\Users\nijat\simulation4\zach\TerminalPractice" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\nijat\simulation4\zach\TerminalPractice" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e97c3bfc-a9e0-46f4-bf8f-6a9ee29a7cd8" name="Changes" comment="" />
+      <created>1655936307075</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1655936307075</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="com.vaadin.designer2.intellij.settings.SizePresetsSettingsComponent">
+    <option name="sizePresets">
+      <list>
+        <SizePreset>
+          <option name="caption" value="Phone" />
+          <option name="height" value="568" />
+          <option name="width" value="320" />
+        </SizePreset>
+        <SizePreset>
+          <option name="caption" value="Tablet" />
+          <option name="height" value="1024" />
+          <option name="width" value="768" />
+        </SizePreset>
+        <SizePreset>
+          <option name="caption" value="Desktop" />
+          <option name="height" value="900" />
+          <option name="width" value="1440" />
+        </SizePreset>
+      </list>
+    </option>
+  </component>
+</project>

@@ -9,7 +9,7 @@ import static org.testng.Assert.assertTrue;
 public class SmokeTest extends TestBase {
 
     @Test
-    public void testCase1() {
+    public void testCase10() {
        // -- Test Data -- //
        String invalidUser = data().internet().emailAddress();
        String invalidPass = data().internet().password();
@@ -28,7 +28,7 @@ public class SmokeTest extends TestBase {
    }
 
     @Test
-    public void testCase1() {
+    public void testCase11() {
 
         // -- Test Script -- //
         home().open();
@@ -44,7 +44,7 @@ public class SmokeTest extends TestBase {
 
 
     @Test
-    public void testCase1() {
+    public void testCase12() {
         // -- Test Data -- //
         String invalidUser = data().internet().emailAddress();
         String invalidPass = data().internet().password();
